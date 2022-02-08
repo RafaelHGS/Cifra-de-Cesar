@@ -25,7 +25,7 @@ Teste sobre Cifra de Cesar, com algumas modificações
  Frase original: a aa
  Keys para criptografia: 2 1 2
  Resposta esperada: C BC (trocando apenas as letras)
- Resposta obtida: C CC (pois teoricametne ele trocou o espaço com a rotação de Key = 1)
+ Resposta obtida: C CC (pois teoricamente ele trocou o espaço com a rotação de Key = 1)
 ```
 # Sugestões
   Aceito sugestões e ajuda para a melhora do código, incluindo ajuda para a codificação também de números e simbolos, e também para ignorar o espaço e trocar somente a key por letra.

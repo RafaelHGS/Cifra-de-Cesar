@@ -34,6 +34,8 @@ def criptografar_descriptografar(key=0, frase="", C_or_D=1):
 
         if letra not in discoExterno:
             nova_frase += letra
+            do_nKey -= 1
+            
         else:
             for x, y in novo_disco:
                 if letra == x:

@@ -18,14 +18,6 @@ Teste sobre Cifra de Cesar, com algumas modificações
   - Na Descriptografia, ao colocarmos o mesmo texto gerado na criptografia, com a mesma Key, ele irá devolver o texto original
   - No Gerador de keys, podemos gerar randomicamente num arquivo .txt uma key à ser usada na aba de criptografia, tendo duas funcionalidades, a primeira é utilizar gerar uma "quantidade específica de key's", ou seja, será perguntado "quantas keys você deseja utilizar", se sua resposta for "10", serão gerados 10 números aleatórios para serem usados como Key's no arquivo .txt. A segunda opção é gerar uma key por caractere de frase, sim, isso mesmo, você irá colocar uma frase nesse gerador e ele irá te devolver uma key diferente e randômica por caractere no texto, ou seja, se seu texto tiver 600 caracteres, serão geradas 600 keys para cada um deles, para ser usada na aba "criptografia" do código.
 
-# Bugs não resolvidos
-  - Key por letra, independente do espaço. O código não diferencia Espaços de letras, portanto sempre quando há um espaço, em teoria ele está "trocando o espaço por uma letra", ou seja, os espaços contam na hora da criptografia.
- ```
- Ex:
- Frase original: a aa
- Keys para criptografia: 2 1 2
- Resposta esperada: C BC (trocando apenas as letras)
- Resposta obtida: C CC (pois teoricamente ele trocou o espaço com a rotação de Key = 1)
-```
+
 # Sugestões
   Aceito sugestões e ajuda para a melhora do código, incluindo ajuda para a codificação também de números e simbolos, e também para ignorar o espaço e trocar somente a key por letra.
